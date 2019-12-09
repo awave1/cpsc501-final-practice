@@ -16,4 +16,12 @@ public class Car implements Drivable {
     public void drive() {
         System.out.println("choo choo mf");
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+            "name='" + name + '\'' +
+            ", driver=" + driver +
+            '}';
+    }
 }
